@@ -1,4 +1,4 @@
-name: lipophilicity_env
+name: molecule_modeling
 dependencies:
   - python=3.8
   - scikit-learn
