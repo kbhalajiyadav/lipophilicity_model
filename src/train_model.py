@@ -37,7 +37,7 @@ if args.alpha is not None:
     alpha = args.alpha
 
 # Load the dataset
-data = pd.read_csv('Lipophilicity.csv')
+data = pd.read_csv('data/Lipophilicity.csv')
 X = data['smiles']
 y = data['exp']
 
