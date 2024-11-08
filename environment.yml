@@ -1,7 +1,17 @@
-name: lipophilicity_env
-dependencies:
-  - python=3.8
-  - scikit-learn
-  - pandas
-  - numpy
+name: molecule_modeling
+channels:
   - rdkit
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - rdkit=2023.03.1  # RDKit for molecular handling (SMILES, fingerprints)
+  - scikit-learn=1.4.2  # For MLPRegressor and model evaluation
+  - numpy=1.26.4
+  - pandas=2.2.2  # For data handling
+  - matplotlib=3.8.4  # For plotting
+  - seaborn=0.13.2  # For advanced plotting
+  - pip
+  - pip:
+      - jupyterlab  # If you want to run Jupyter notebooks
+      - tqdm  # Progress bar for long-running tasks
