@@ -4,6 +4,8 @@ This repository contains a Python package and script to train a model predicting
 
 ## Contents
 - **src/train_model.py**: Script for loading data, generating fingerprints, training the model, and saving evaluation results.
+- **data/Lipophilicity.csv**: Data file.
+- **config.json**: Model hyperparameters specification.
 - **environment.yml**: Conda environment file listing dependencies.
 - **results.txt**: Output file that stores the model's RMSE, the conda environment used, and key hyperparameters.
 
